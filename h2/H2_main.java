@@ -2,14 +2,14 @@ package h2;
 
 public class H2_main {
 
-    // Cache für fibonacciCached
+    
     private static long[] cache = new long[1000];
 
     public static void main(String[] args) {
         benchmark(40);
     }
 
-    // Benchmark-Methode
+
     public static void benchmark(int n) {
 
         long start, end;
